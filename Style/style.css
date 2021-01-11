@@ -1,0 +1,117 @@
+.main {
+  margin: 10px;
+}
+
+.content-bg {
+  height: 90vh;
+  width: 100%;
+  background-image: url("../bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+  border-radius: 4px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0.8;
+}
+
+.content-bg p {
+  opacity: 1;
+  color: #fff;
+  width: 600px;
+  text-align: center;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content p {
+  height: 300px;
+  width: 500px;
+  margin: 8px;
+  padding: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 1px 1px 4px 0px black;
+          box-shadow: 1px 1px 4px 0px black;
+}
+
+.footer {
+  height: 60px;
+  width: 100%;
+  border-radius: 4px;
+  background: #044;
+  color: #fff;
+}
+
+.footer-content {
+  margin: 10px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.top-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #044;
+  margin: 0px 0px 8px 0px;
+  width: 100%;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 3px 2px 0px black;
+          box-shadow: 0px 3px 2px 0px black;
+}
+
+.bar-item {
+  margin: 8px;
+  width: 100%;
+}
+
+.bar-item ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.bar-item li {
+  list-style: none;
+}
+
+.bar-item a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+.bar-item a:hover {
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

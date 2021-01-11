@@ -1,0 +1,16 @@
+$bgColor: #044;
+$color: #fff;
+$margin: 8px;
+$padding: 6px;
+
+
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin heightWidth($height, $width) {
+    height: $height;
+    width: $width;
+}

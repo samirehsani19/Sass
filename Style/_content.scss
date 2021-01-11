@@ -1,0 +1,34 @@
+@import './variables';
+
+.main{
+    margin: 10px;
+}
+
+.content-bg{
+    @include heightWidth(90vh, 100%);
+    background-image: url('../bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    border-radius: 4px;
+    position: relative;
+    @include flexCenter();
+    opacity: 0.8;
+    
+    p{
+        opacity: 1;
+        color: $color;
+        width: 600px;
+        text-align: center;
+    }
+}
+
+.content{
+    @include flexCenter();    
+    p{
+        @include heightWidth(300px, 500px);
+        margin: $margin;
+        padding: $padding;
+        border-radius: 6px;
+       box-shadow: 1px 1px 4px 0px black;
+    }
+}

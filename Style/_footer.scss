@@ -1,0 +1,14 @@
+@import './variables';
+
+.footer{
+    @include  heightWidth(60px, 100%);
+    border-radius: 4px;
+    background: $bgColor;
+    color: $color;
+}
+
+.footer-content{
+    margin: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
